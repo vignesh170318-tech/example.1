@@ -12,7 +12,7 @@ root.configure(bg="#2E4053")
 
 style = ttk.Style()
 style.configure("TButton", font=("Arial", 12, "bold"), padding=8)
-style.configure("TEntry", font=("Arial", 14))
+style.configure("TEntry", font=("Arial", 124))
 style.configure("TLabel", background="#2E4053", foreground="white", font=("Arial", 12))
 
 def get_weather():
