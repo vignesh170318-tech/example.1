@@ -42,7 +42,7 @@ def get_weather():
                     f"💧 Humidity: {humidity}%"
                 )
             else:
-                result = "⚠️ City not found!"
+                result = "⚠️ City not found vignesh!"
         except requests.exceptions.RequestException:
             result = "❌ Network error. Please try again."
     else:
